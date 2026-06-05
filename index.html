@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio of a 3D Generalist featuring 3D models, moving arts, product mockups, and UX/UI app design."
+    />
+    <title>DigiMarc Portfolio🎩</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css?v=20260605a" />
+  </head>
+  <body>
+    <header class="hero" id="top">
+      <div class="hero__overlay"></div>
+      <div class="container hero__layout">
+        <div class="hero__avatar-panel">
+          <canvas id="avatar-canvas" aria-label="Interactive 3D avatar"></canvas>
+        </div>
+        <div class="hero__content">
+          <h1 id="hero-name">Your Name</h1>
+          <p class="hero__discipline" id="hero-role">3D Artist and Product Designer</p>
+          <p class="hero__summary" id="hero-summary"></p>
+          <div class="hero__controls">
+            <a class="btn" href="#categories">View Work</a>
+            <a class="btn" href="#contact">Contact</a>
+            <a class="btn btn--solid" id="resume-button" href="./Marco%20Sihombing%20CV,%202026.pdf.pdf" download>
+              Resume
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="container" id="categories" aria-label="Portfolio categories">
+        <div id="categories-root"></div>
+      </section>
+
+      <section class="container contact" id="contact" aria-labelledby="contact-heading">
+        <h2 id="contact-heading">Let's Connect!</h2>
+        <p class="contact__lead">Reach me on my socials!</p>
+        <div class="contact__links" id="contact-links"></div>
+      </section>
+    </main>
+
+    <footer class="container footer">
+      <p class="footer__copyright">@2026 DigiMarc. All rights reserved</p>
+      <a href="#top">Back to top</a>
+    </footer>
+
+    <script type="module" src="./scripts/main.js?v=20260605a"></script>
+  </body>
+</html>

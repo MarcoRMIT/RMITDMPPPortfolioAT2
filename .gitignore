@@ -1,0 +1,7 @@
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+
+# Local film files exceed GitHub 100MB limit — films are hosted on YouTube
+/MOVING ARTS/**/*.mp4
